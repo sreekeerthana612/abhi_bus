@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="200" height="200">
+  <g fill="#4E5160">
+    <!-- Back Ticket -->
+    <path d="M 32 26 L 82 14 C 85 13, 88 15, 89 18 L 94 38 C 92 39, 90 42, 91 45 C 92 48, 95 50, 97 51 L 91 71 C 90 74, 87 76, 84 75 L 68 71 C 67 68, 62 67, 59 69 L 32 26 Z" opacity="0.8" />
+    
+    <!-- Front Ticket Main Body -->
+    <path d="M 10 38 C 10 35, 12 33, 15 33 L 73 33 C 76 33, 78 35, 78 38 L 78 45 C 74 46, 72 50, 72 54 C 72 58, 74 62, 78 63 L 78 70 C 78 73, 76 75, 73 75 L 15 75 C 12 75, 10 73, 10 70 L 10 63 C 14 62, 16 58, 16 54 C 16 50, 14 46, 10 45 Z" />
+  </g>
+  
+  <!-- Front Ticket Inner Details (Transparent Cutouts) -->
+  <g fill="#FFFFFF">
+    <line x1="60" y1="36" x2="60" y2="72" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="3,3" />
+    <rect x="20" y="44" width="22" height="4" rx="2" />
+    <rect x="20" y="52" width="14" height="4" rx="2" />
+    <rect x="20" y="60" width="28" height="4" rx="2" />
+  </g>
+</svg>

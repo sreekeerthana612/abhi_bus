@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="200" height="200">
+  <!-- Outer scalloped badge background -->
+  <path fill="#4A4E5D" d="M50 5
+    C53 5 55 8 58 9 C61 10 65 9 68 11 C71 13 72 17 75 19 
+    C78 21 82 22 83 25 C85 28 84 32 86 35 C88 38 91 40 92 44 
+    C93 48 91 52 91 56 C91 60 93 64 92 68 C91 72 88 74 86 77 
+    C84 80 85 84 83 87 C82 90 78 91 75 93 C72 95 71 99 68 101 
+    C65 103 61 102 58 103 C55 104 53 107 50 107 C47 107 45 104 42 103 
+    C39 102 35 103 32 101 C29 99 28 95 25 93 C22 91 18 90 17 87 
+    C15 84 16 80 14 77 C12 74 9 72 8 68 C7 64 9 60 9 56 
+    C9 52 7 48 8 44 C9 40 12 38 14 35 C16 32 15 28 17 25 
+    C18 22 22 21 25 19 C28 17 29 13 32 11 C35 9 39 10 42 9 
+    C45 8 47 5 50 5 Z" transform="scale(0.85) translate(8, 8)"/>
+  
+  <!-- Percent Symbol (White) -->
+  <!-- Top-left circle -->
+  <circle cx="38" cy="38" r="7" fill="#FFFFFF" />
+  <!-- Bottom-right circle -->
+  <circle cx="62" cy="62" r="7" fill="#FFFFFF" />
+  <!-- Diagonal slash -->
+  <line x1="63" y1="33" x2="37" y2="67" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" />
+</svg>

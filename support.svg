@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="200" height="200">
+  <!-- Center Speech Bubble -->
+  <circle cx="50" cy="50" r="22" fill="#4E5160" />
+  <!-- Speech Dots -->
+  <circle cx="41" cy="50" r="2.5" fill="#FFFFFF" />
+  <!-- Headset Band -->
+  <circle cx="50" cy="50" r="2.5" fill="#FFFFFF" />
+  <circle cx="59" cy="50" r="2.5" fill="#FFFFFF" />
+
+  <path d="M 23 52 A 30 30 0 0 1 77 52" fill="none" stroke="#4E5160" stroke-width="6" stroke-linecap="round" />
+  
+  <!-- Left & Right Earpads -->
+  <rect x="15" y="42" width="10" height="20" rx="5" fill="#4E5160" />
+  <rect x="75" y="42" width="10" height="20" rx="5" fill="#4E5160" />
+  
+  <!-- Microphone Arm & Tip -->
+  <path d="M 20 60 A 28 28 0 0 0 42 77" fill="none" stroke="#4E5160" stroke-width="5" stroke-linecap="round" />
+  <circle cx="44" cy="77" r="4" fill="#4E5160" />
+</svg>
