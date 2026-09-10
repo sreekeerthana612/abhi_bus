@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AbhiBus — Book Bus Tickets</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="logo">abhibus</div>
+    <nav class="nav-links">
+      <a href="#"><img src="Icons/Offers.svg" alt="Offers" class="nav-icon"> Offers</a>
+      <a href="#"><img src="Icons/tickets.svg" alt="Track Ticket" class="nav-icon"> Track Ticket</a>
+      <a href="#"><img src="Icons/support.svg" alt="Need Help" class="nav-icon"> Need Help?</a>
+      <a href="#" class="login"><img src="Icons/login.svg" alt="Login" class="nav-icon"> Login/SignUp</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <img class="hero-img" src="media/vecteezy_a-white-passenger-bus-traveling-on-a-highway-at-sunset-with_71533789.jpeg" alt="Bus travelling on a scenic road">
+
+    <div class="search-card">
+      <div class="tabs">
+  <input type="radio" name="mode" id="tab-bus" class="tab-radio" checked>
+  <label for="tab-bus" class="tab">
+    <img src="Icons/bus.svg" alt="Bus" class="tab-icon">Bus
+  </label>
+
+  <input type="radio" name="mode" id="tab-flight" class="tab-radio">
+  <label for="tab-flight" class="tab">
+    <img src="Icons/flight.svg" alt="Flight" class="tab-icon">Flight
+  </label>
+
+  <input type="radio" name="mode" id="tab-train" class="tab-radio">
+  <label for="tab-train" class="tab">
+    <img src="Icons/train.svg" alt="Train" class="tab-icon">Train
+  </label>
+
+  <input type="radio" name="mode" id="tab-hotel" class="tab-radio">
+  <label for="tab-hotel" class="tab">
+    <img src="Icons/hotel.svg" alt="Hotel" class="tab-icon">Hotel
+  </label>
+
+  <span class="tagline">India's Fastest Bus Ticket Booking Platform</span>
+</div>
+
+      <div class="search-row">
+        <div class="field">
+          <label>Leaving From</label>
+          <input placeholder="Enter City">
+        </div>
+
+        <button class="swap-btn" title="Swap cities">⇄</button>
+
+        <div class="field">
+          <label>Going To</label>
+          <input placeholder="Enter City">
+        </div>
+
+        <div class="field date-field">
+          <label>Departure</label>
+          <input type="date" value="2026-09-10">
+        </div>
+
+        <button class="day-btn">Today</button>
+        <button class="day-btn">Tomorrow</button>
+
+        <button class="search-btn">Search →</button>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
